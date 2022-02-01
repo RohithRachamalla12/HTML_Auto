@@ -8,7 +8,7 @@
       update_cache: yes
    - name: Copy the index file
      copy:
-      name: index.html
+      src: index.html
       dest: /var/www/html/
    - name: restarting apache2
      service:
